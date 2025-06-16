@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 4 - CSS Assignment</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #00796b;
+      text-align: center;
+    }
+
+    p {
+      color: #37474f;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+    .box {
+      border: 2px solid #00897b;
+      margin: 20px;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Inline CSS -->
+  <h1 style="color: #d32f2f;">My CSS Assignment</h1>
+
+  <p>This paragraph is styled using internal CSS.</p>
+
+  <p class="box">This paragraph has a border and margin using internal CSS.</p>
+
+  <div class="external-style">
+    This section is styled using external CSS.
+  </div>
+
+</body>
+</html>

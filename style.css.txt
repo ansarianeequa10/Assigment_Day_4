@@ -1,0 +1,8 @@
+.external-style {
+  background-color: #fff9c4;
+  color: #33691e;
+  font-size: 18px;
+  padding: 15px;
+  margin: 15px;
+  border: 2px dashed #558b2f;
+}
